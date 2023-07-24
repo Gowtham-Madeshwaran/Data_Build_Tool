@@ -1,0 +1,1 @@
+Select * from STU_ADD

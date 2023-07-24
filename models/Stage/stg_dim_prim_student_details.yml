@@ -1,0 +1,7 @@
+models:
+  - name: stg_dim_prim_student_details
+    columns:
+      - name: STUDENT_ID
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,1 @@
+Select STUDENT_ID,STUDENT_NAME from {{source('student_details','My_Dummy_Table')}}

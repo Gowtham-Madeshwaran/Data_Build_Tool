@@ -1,0 +1,11 @@
+sources:
+  - name: student_details
+    database: FUNCTION_LEARNING
+    schema: SNOWFLAKE_LEARNING
+    tables:
+      - name: My_Dummy_Table
+        columns:
+          - name: Student_ID
+            tests:
+              - unique
+              - not_null
